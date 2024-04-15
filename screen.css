@@ -1,1 +1,70 @@
-/* Add screen styles below */
+#c1{
+    color: white;
+    background-color: red;
+}
+
+#c2{
+    color: white;
+    background-color: blue;
+}
+
+#c3{
+    color: white;
+    background: color-mix(in srgb, red 100%, blue 100%);
+}
+
+#c4{
+    color: white;
+    background: color-mix(in srgb-linear, red 100%, blue 100%);
+}
+
+#c5{
+    color: white;
+    background-color: color-mix(in lab, red, blue);
+}
+
+#c6{
+    color: white;
+    background-color: color-mix(in oklab, red, blue);
+}
+
+#c7{
+    color: white;
+    background-color: color-mix(in HSL, red, blue);
+}
+
+#c8{
+    color: white;
+    background-color: color-mix(in LCH, red, blue);
+}
+
+#c9{
+    color: white;
+    background-color: color-mix(in OKLCH, red, blue);
+}
+
+#c10{
+    color: white;
+    background-color: color-mix(in hwb, red, blue);
+}
+
+#c11{
+    color: white;
+    background-color: color-mix(in xyz, red, blue);
+}
+
+
+
+.demo-box{
+    width: 25%;
+    height: 25%;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+h2{
+    padding: 10%;
+    border-radius: 5px;
+    border-color: black;
+    border
+}
